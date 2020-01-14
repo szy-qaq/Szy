@@ -9,7 +9,7 @@ public class Test {
 		AnnotationConfigApplicationContext annotationConfigApplicationContext
 				= new AnnotationConfigApplicationContext(Appconfig.class);
 		//Appconfig appconfig = annotationConfigApplicationContext.getBean(Appconfig.class);
-
+		System.out.println("cesshi");
 		annotationConfigApplicationContext.getBean(IndexService.class);
 //		LubanAppcofig lubanAppcofig = new LubanAppcofig();
 //		lubanAppcofig.testProxy();
