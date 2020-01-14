@@ -10,7 +10,7 @@ public class Test {
 				= new AnnotationConfigApplicationContext(Appconfig.class);
 		//Appconfig appconfig = annotationConfigApplicationContext.getBean(Appconfig.class);
 
-		System.out.println(annotationConfigApplicationContext.getBean(IndexService.class));
+		annotationConfigApplicationContext.getBean(IndexService.class);
 //		LubanAppcofig lubanAppcofig = new LubanAppcofig();
 //		lubanAppcofig.testProxy();
 //		lubanAppcofig.testProxy();
